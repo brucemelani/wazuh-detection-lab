@@ -1,0 +1,10 @@
+# Secrets and keys: NEVER commit these
+wazuh-install-files.tar
+wazuh-passwords.txt
+client.keys
+*.pem
+*.key
+.env
+
+# Unsanitized configs
+configs/*.private.conf
